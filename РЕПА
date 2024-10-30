@@ -14,10 +14,10 @@ class DivisibilityChecker {
             number = scanner.nextInt();
 
             // Проверяем делимость на 3
-            if (number % 3 == 0) {
-                System.out.println(number + " делится на 3.");
+            if (number % 4 == 0) {
+                System.out.println(number + " делится на 4.");
             } else {
-                System.out.println(number + " не делится на 3.");
+                System.out.println(number + " не делится на 4.");
             }
 
             // Проверяем делимость на 5
