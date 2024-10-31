@@ -13,7 +13,7 @@ class DivisibilityChecker {
         if (scanner.hasNextInt()) {
             number = scanner.nextInt();
 
-            // Проверяем делимость на 3
+            // Проверяем делимость на 4
             if (number % 4 == 0) {
                 System.out.println(number + " делится на 4.");
             } else {
